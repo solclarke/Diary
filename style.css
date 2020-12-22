@@ -1,0 +1,70 @@
+.container {
+    text-align: center;
+}
+    #homePageContainer {
+        margin-top: 200px;
+    }
+    
+    #containerLoggedInPage {
+        margin-top: 80px;
+    }
+  
+  
+html { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  }
+  
+  body {
+      background: none;
+      color: #FFF;
+  }
+
+    form, #error {
+        width: 400px;
+        margin: auto;
+    }
+    
+        #logInForm {
+            display: none;
+        }
+    footer {
+        margin: 7% auto 2%;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+            color: white;
+        }
+        
+        footer a:hover {
+            text-decoration: none;
+            font-weight: 900;
+        }
+    
+    #diary {
+        width: 100%;
+        font-size: 18px;
+    }
+        .diary-info {
+            display:none;
+        }
+
+        h4 {
+            font-weight: 0;
+          }
+
+    .info {
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+  @media (max-width: 450px) {
+      #homePageContainer {
+          margin-top: 30%;
+          }
+      
+      form, #error {
+          width: auto;
+          }
+    }
